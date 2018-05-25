@@ -4,15 +4,15 @@
     <Configuration Condition=" '$(Configuration)' == '' ">Object</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectVersion>7.0</ProjectVersion>
-    <ProjectGuid>5be20484-c0ea-41d9-b19e-eaa4d8e06198</ProjectGuid>
+    <ProjectGuid>23b5bbb8-0e61-4390-8bf0-232180a15414</ProjectGuid>
     <avrdeviceseries>none</avrdeviceseries>
     <avrdevice>AT90CAN128</avrdevice>
     <avrtool>com.atmel.avrdbg.tool.atmelice</avrtool>
-    <OutputFileName>Aufgabe2</OutputFileName>
+    <OutputFileName>Aufgabe3</OutputFileName>
     <OutputFileExtension>.elf</OutputFileExtension>
-    <OutputDirectory>D:\Projekte\IAV Hackerthon\mainChallange\Aufgabe2</OutputDirectory>
+    <OutputDirectory>D:\Projekte\IAV Hackerthon\mainChallange\Aufgabe3</OutputDirectory>
     <ObjectProjectType>True</ObjectProjectType>
-    <MD5HashValue>4BC91959A4E0EFFEE1A8BAF0E85CBC93</MD5HashValue>
+    <MD5HashValue>8A2ACFC6E62D9F14E13477E33F83A4AA</MD5HashValue>
     <RootFolderCreationPattern>OptimizedRoot</RootFolderCreationPattern>
     <IsObjLinkFile>True</IsObjLinkFile>
     <UseGdb>false</UseGdb>
@@ -21,15 +21,15 @@
     </GdbCustomPath>
     <AsfFrameworkConfig>
       <framework-data xmlns="">
-        <options />
-        <configurations />
-        <files />
-        <documentation help="" />
-        <offline-documentation help="" />
-        <dependencies>
-          <content-extension eid="atmel.asf" uuidref="Atmel.ASF" version="3.35.1" />
-        </dependencies>
-      </framework-data>
+  <options />
+  <configurations />
+  <files />
+  <documentation help="" />
+  <offline-documentation help="" />
+  <dependencies>
+    <content-extension eid="atmel.asf" uuidref="Atmel.ASF" version="3.35.1" />
+  </dependencies>
+</framework-data>
     </AsfFrameworkConfig>
     <KeepTimersRunning>true</KeepTimersRunning>
     <OverrideVtor>false</OverrideVtor>
@@ -45,7 +45,6 @@
     <EraseKey />
     <avrtoolserialnumber>J41800098183</avrtoolserialnumber>
     <avrdeviceexpectedsignature>0x1E9781</avrdeviceexpectedsignature>
-    <avrtoolinterface>JTAG</avrtoolinterface>
     <com_atmel_avrdbg_tool_atmelice>
       <ToolOptions>
         <InterfaceProperties>
@@ -57,6 +56,7 @@
       <ToolNumber>J41800098183</ToolNumber>
       <ToolName>Atmel-ICE</ToolName>
     </com_atmel_avrdbg_tool_atmelice>
+    <avrtoolinterface>JTAG</avrtoolinterface>
     <avrtoolinterfaceclock>200000</avrtoolinterfaceclock>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
@@ -69,23 +69,35 @@
       <AliasFilePath>D:\crt1\gcrt1.S</AliasFilePath>
       <Link>gcrt1.S</Link>
     </Compile>
-    <Compile Include="C:\Users\Pesti\Documents\Atmel Studio\7.0\Aufgabe2\Aufgabe2\MyDelay.h">
+    <Compile Include="C:\Users\Pesti\Documents\Atmel Studio\7.0\Aufgabe3\Aufgabe3\MyDelay.h">
       <SubType>compile</SubType>
-      <FilePathFromObjectFile>C:\Users\Pesti\Documents\Atmel Studio\7.0\Aufgabe2\Aufgabe2\MyDelay.h</FilePathFromObjectFile>
-      <AliasFilePath>C:\Users\Pesti\Documents\Atmel Studio\7.0\Aufgabe2\Aufgabe2\MyDelay.h</AliasFilePath>
+      <FilePathFromObjectFile>C:\Users\Pesti\Documents\Atmel Studio\7.0\Aufgabe3\Aufgabe3\MyDelay.h</FilePathFromObjectFile>
+      <AliasFilePath>C:\Users\Pesti\Documents\Atmel Studio\7.0\Aufgabe3\Aufgabe3\MyDelay.h</AliasFilePath>
       <Link>MyDelay.h</Link>
     </Compile>
-    <Compile Include="C:\Users\Pesti\Documents\Atmel Studio\7.0\Aufgabe2\Aufgabe2\Uart.h">
+    <Compile Include="C:\Users\Pesti\Documents\Atmel Studio\7.0\Aufgabe3\Aufgabe3\Uart.h">
       <SubType>compile</SubType>
-      <FilePathFromObjectFile>C:\Users\Pesti\Documents\Atmel Studio\7.0\Aufgabe2\Aufgabe2\Uart.h</FilePathFromObjectFile>
-      <AliasFilePath>C:\Users\Pesti\Documents\Atmel Studio\7.0\Aufgabe2\Aufgabe2\Uart.h</AliasFilePath>
+      <FilePathFromObjectFile>C:\Users\Pesti\Documents\Atmel Studio\7.0\Aufgabe3\Aufgabe3\Uart.h</FilePathFromObjectFile>
+      <AliasFilePath>C:\Users\Pesti\Documents\Atmel Studio\7.0\Aufgabe3\Aufgabe3\Uart.h</AliasFilePath>
       <Link>Uart.h</Link>
     </Compile>
-    <Compile Include="C:\Users\Pesti\Documents\Atmel Studio\7.0\Aufgabe2\Aufgabe2\main.c">
+    <Compile Include="C:\Users\Pesti\Documents\Atmel Studio\7.0\Aufgabe3\Aufgabe3\main.c">
       <SubType>compile</SubType>
-      <FilePathFromObjectFile>C:\Users\Pesti\Documents\Atmel Studio\7.0\Aufgabe2\Aufgabe2\main.c</FilePathFromObjectFile>
-      <AliasFilePath>C:\Users\Pesti\Documents\Atmel Studio\7.0\Aufgabe2\Aufgabe2\main.c</AliasFilePath>
+      <FilePathFromObjectFile>C:\Users\Pesti\Documents\Atmel Studio\7.0\Aufgabe3\Aufgabe3\main.c</FilePathFromObjectFile>
+      <AliasFilePath>C:\Users\Pesti\Documents\Atmel Studio\7.0\Aufgabe3\Aufgabe3\main.c</AliasFilePath>
       <Link>main.c</Link>
+    </Compile>
+    <Compile Include="C:\Users\Pesti\Documents\Atmel Studio\7.0\Aufgabe3\Aufgabe3\sha256.c">
+      <SubType>compile</SubType>
+      <FilePathFromObjectFile>C:\Users\Pesti\Documents\Atmel Studio\7.0\Aufgabe3\Aufgabe3\sha256.c</FilePathFromObjectFile>
+      <AliasFilePath>C:\Users\Pesti\Documents\Atmel Studio\7.0\Aufgabe3\Aufgabe3\sha256.c</AliasFilePath>
+      <Link>sha256.c</Link>
+    </Compile>
+    <Compile Include="C:\Users\Pesti\Documents\Atmel Studio\7.0\Aufgabe3\Aufgabe3\sha256.h">
+      <SubType>compile</SubType>
+      <FilePathFromObjectFile>C:\Users\Pesti\Documents\Atmel Studio\7.0\Aufgabe3\Aufgabe3\sha256.h</FilePathFromObjectFile>
+      <AliasFilePath>C:\Users\Pesti\Documents\Atmel Studio\7.0\Aufgabe3\Aufgabe3\sha256.h</AliasFilePath>
+      <Link>sha256.h</Link>
     </Compile>
     <Compile Include="d:\program files (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\stdint.h">
       <SubType>compile</SubType>
