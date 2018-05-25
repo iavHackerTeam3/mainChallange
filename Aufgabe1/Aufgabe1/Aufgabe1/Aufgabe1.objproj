@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Object</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectVersion>7.0</ProjectVersion>
+    <ProjectGuid>9eb131c0-4732-4d9c-9337-11f8b582abcc</ProjectGuid>
+    <avrdeviceseries>none</avrdeviceseries>
+    <avrdevice>AT32UC3A0128</avrdevice>
+    <avrtool>com.atmel.avrdbg.tool.atmelice</avrtool>
+    <OutputFileName>Aufgabe1</OutputFileName>
+    <OutputFileExtension>.elf</OutputFileExtension>
+    <OutputDirectory>D:\Projekte\IAV Hackerthon\mainChallange\Aufgabe1</OutputDirectory>
+    <ObjectProjectType>True</ObjectProjectType>
+    <MD5HashValue>C5B5E3CC56EB7C14A2E76F1C59D64556</MD5HashValue>
+    <RootFolderCreationPattern>OptimizedRoot</RootFolderCreationPattern>
+    <IsObjLinkFile>True</IsObjLinkFile>
+    <UseGdb>false</UseGdb>
+    <UseGdbCustomPath>false</UseGdbCustomPath>
+    <GdbCustomPath>
+    </GdbCustomPath>
+    <AsfFrameworkConfig>
+      <framework-data xmlns="">
+  <options />
+  <configurations />
+  <files />
+  <documentation help="" />
+  <offline-documentation help="" />
+  <dependencies>
+    <content-extension eid="atmel.asf" uuidref="Atmel.ASF" version="3.35.1" />
+  </dependencies>
+</framework-data>
+    </AsfFrameworkConfig>
+    <KeepTimersRunning>true</KeepTimersRunning>
+    <OverrideVtor>false</OverrideVtor>
+    <CacheFlash>true</CacheFlash>
+    <ProgFlashFromRam>true</ProgFlashFromRam>
+    <RamSnippetAddress>0x20000000</RamSnippetAddress>
+    <UncachedRange />
+    <preserveEEPROM>true</preserveEEPROM>
+    <OverrideVtorValue>exception_table</OverrideVtorValue>
+    <BootSegment>2</BootSegment>
+    <ResetRule>0</ResetRule>
+    <eraseonlaunchrule>0</eraseonlaunchrule>
+    <EraseKey />
+    <avrtoolserialnumber>J41800098183</avrtoolserialnumber>
+    <avrdeviceexpectedsignature>0x0</avrdeviceexpectedsignature>
+    <avrtoolinterface>JTAG</avrtoolinterface>
+    <com_atmel_avrdbg_tool_atmelice>
+      <ToolOptions>
+        <InterfaceProperties>
+          <JtagDbgClock>200000</JtagDbgClock>
+        </InterfaceProperties>
+        <InterfaceName>JTAG</InterfaceName>
+      </ToolOptions>
+      <ToolType>com.atmel.avrdbg.tool.atmelice</ToolType>
+      <ToolNumber>J41800098183</ToolNumber>
+      <ToolName>Atmel-ICE</ToolName>
+    </com_atmel_avrdbg_tool_atmelice>
+    <avrtoolinterfaceclock>200000</avrtoolinterfaceclock>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+  </PropertyGroup>
+  <Import Project="$(AVRSTUDIO_EXE_PATH)\Vs\FakeObjProjects.targets" />
+  <ItemGroup>
+    <Compile Include="D:\crt1\gcrt1.S">
+      <SubType>compile</SubType>
+      <FilePathFromObjectFile>D:\crt1\gcrt1.S</FilePathFromObjectFile>
+      <AliasFilePath>D:\crt1\gcrt1.S</AliasFilePath>
+      <Link>gcrt1.S</Link>
+    </Compile>
+    <Compile Include="C:\Users\Pesti\Documents\Atmel Studio\7.0\Aufgabe1\Aufgabe1\MyDelay.h">
+      <SubType>compile</SubType>
+      <FilePathFromObjectFile>C:\Users\Pesti\Documents\Atmel Studio\7.0\Aufgabe1\Aufgabe1\MyDelay.h</FilePathFromObjectFile>
+      <AliasFilePath>C:\Users\Pesti\Documents\Atmel Studio\7.0\Aufgabe1\Aufgabe1\MyDelay.h</AliasFilePath>
+      <Link>MyDelay.h</Link>
+    </Compile>
+    <Compile Include="C:\Users\Pesti\Documents\Atmel Studio\7.0\Aufgabe1\Aufgabe1\Uart.h">
+      <SubType>compile</SubType>
+      <FilePathFromObjectFile>C:\Users\Pesti\Documents\Atmel Studio\7.0\Aufgabe1\Aufgabe1\Uart.h</FilePathFromObjectFile>
+      <AliasFilePath>C:\Users\Pesti\Documents\Atmel Studio\7.0\Aufgabe1\Aufgabe1\Uart.h</AliasFilePath>
+      <Link>Uart.h</Link>
+    </Compile>
+    <Compile Include="C:\Users\Pesti\Documents\Atmel Studio\7.0\Aufgabe1\Aufgabe1\main.c">
+      <SubType>compile</SubType>
+      <FilePathFromObjectFile>C:\Users\Pesti\Documents\Atmel Studio\7.0\Aufgabe1\Aufgabe1\main.c</FilePathFromObjectFile>
+      <AliasFilePath>C:\Users\Pesti\Documents\Atmel Studio\7.0\Aufgabe1\Aufgabe1\main.c</AliasFilePath>
+      <Link>main.c</Link>
+    </Compile>
+    <Compile Include="d:\program files (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\stdint.h">
+      <SubType>compile</SubType>
+      <FilePathFromObjectFile>d:\program files (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\stdint.h</FilePathFromObjectFile>
+      <AliasFilePath>d:\program files (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\stdint.h</AliasFilePath>
+      <Link>stdint.h</Link>
+    </Compile>
+  </ItemGroup>
+</Project>
