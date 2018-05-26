@@ -7,7 +7,7 @@
     <ProjectGuid>5be20484-c0ea-41d9-b19e-eaa4d8e06198</ProjectGuid>
     <avrdeviceseries>none</avrdeviceseries>
     <avrdevice>AT90CAN128</avrdevice>
-    <avrtool>com.atmel.avrdbg.tool.atmelice</avrtool>
+    <avrtool>custom</avrtool>
     <OutputFileName>Aufgabe2</OutputFileName>
     <OutputFileExtension>.elf</OutputFileExtension>
     <OutputDirectory>D:\Projekte\IAV Hackerthon\mainChallange\Aufgabe2</OutputDirectory>
@@ -43,13 +43,14 @@
     <ResetRule>0</ResetRule>
     <eraseonlaunchrule>0</eraseonlaunchrule>
     <EraseKey />
-    <avrtoolserialnumber>J41800098183</avrtoolserialnumber>
+    <avrtoolserialnumber>
+    </avrtoolserialnumber>
     <avrdeviceexpectedsignature>0x1E9781</avrdeviceexpectedsignature>
     <avrtoolinterface>JTAG</avrtoolinterface>
     <com_atmel_avrdbg_tool_atmelice>
       <ToolOptions>
         <InterfaceProperties>
-          <JtagDbgClock>200000</JtagDbgClock>
+          <JtagDbgClock>0</JtagDbgClock>
         </InterfaceProperties>
         <InterfaceName>JTAG</InterfaceName>
       </ToolOptions>
@@ -57,7 +58,18 @@
       <ToolNumber>J41800098183</ToolNumber>
       <ToolName>Atmel-ICE</ToolName>
     </com_atmel_avrdbg_tool_atmelice>
-    <avrtoolinterfaceclock>200000</avrtoolinterfaceclock>
+    <avrtoolinterfaceclock>0</avrtoolinterfaceclock>
+    <custom>
+      <ToolOptions xmlns="">
+        <InterfaceProperties>
+        </InterfaceProperties>
+        <InterfaceName>JTAG</InterfaceName>
+      </ToolOptions>
+      <ToolType xmlns="">custom</ToolType>
+      <ToolNumber xmlns="">
+      </ToolNumber>
+      <ToolName xmlns="">Custom Programming Tool</ToolName>
+    </custom>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
   </PropertyGroup>
